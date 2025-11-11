@@ -1,0 +1,18 @@
+@"# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+venv/
+
+# Data (opcional: si decides no versionar datos en el futuro)
+# data/raw/*.json
+
+# Resultados
+results/
+
+# SO
+.DS_Store
+Thumbs.db
+"@ | Out-File -Encoding UTF8 .gitignore
