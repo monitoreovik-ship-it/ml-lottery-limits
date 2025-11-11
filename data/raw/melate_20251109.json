@@ -1,0 +1,19 @@
+{
+  "date": "2025-11-09",
+  "numbers": [
+    3,
+    16,
+    23,
+    30,
+    38,
+    53
+  ],
+  "additional": 49,
+  "timestamp_collected": "2025-11-11T04:16:27.754176",
+  "source": "manual_entry",
+  "sum": 163,
+  "even_count": 3,
+  "odd_count": 3,
+  "range": "3-53",
+  "hash": "6cdc19133dd212a126099aae21fe225449b421cfdd2e89cc09a8b31ead4b43e8"
+}
