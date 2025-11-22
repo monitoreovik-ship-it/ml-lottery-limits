@@ -260,4 +260,16 @@ Baseline Esperado       0.64       0.64       0.64        -
 
 \- Necesario n≥
 
+| # | Fecha Sorteo | Hash Predicción | Resultado | Score | Promedio Acum. | Status |
+|---|-------------|-----------------|-----------|-------|----------------|--------|
+| 1 | 2024-11-14 | `b9c9091d...` | ✅ Evaluado | 1.35 | 1.35 | ✅ Completado |
+| 2 | 2025-11-19 | `9fc47bd4...` | ✅ Evaluado | 1.00 | 1.175 | ✅ Completado |
+| 3 | 2025-11-21 | `cad6cb06...` | ⏳ Pendiente | - | - | 🔐 Bloqueado |
+| 4-60 | TBD | - | - | - | - | ⏳ Pendiente |
+
+**Progreso**: 3/60 predicciones (5.0%)  
+**Promedio acumulado Ensemble**: 1.175 aciertos (1.84x baseline)  
+**Promedio general**: 0.88 aciertos (1.37x baseline)  
+**Última actualización**: 2025-11-22
+
 
