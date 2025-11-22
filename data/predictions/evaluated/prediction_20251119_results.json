@@ -1,0 +1,273 @@
+{
+  "metadata": {
+    "draw_date": "2025-11-19",
+    "prediction_timestamp": "2025-11-18T02:53:35.933873",
+    "training_data_size": 77,
+    "training_data_last_date": "2025-11-09",
+    "algorithms_count": 17
+  },
+  "official_numbers": [
+    6,
+    12,
+    30,
+    42,
+    45,
+    53
+  ],
+  "evaluation_timestamp": "2025-11-22T05:30:06.011493",
+  "results": {
+    "Random Baseline": {
+      "prediction": [
+        9,
+        20,
+        24,
+        34,
+        36,
+        53
+      ],
+      "matches": 1,
+      "matched_numbers": [
+        53
+      ],
+      "algorithm_type": "RandomBaseline"
+    },
+    "Frequency Simple": {
+      "prediction": [
+        23,
+        25,
+        30,
+        31,
+        41,
+        44
+      ],
+      "matches": 1,
+      "matched_numbers": [
+        30
+      ],
+      "algorithm_type": "FrequencySimple"
+    },
+    "Markov 1st Order": {
+      "prediction": [
+        2,
+        7,
+        25,
+        31,
+        34,
+        43
+      ],
+      "matches": 0,
+      "matched_numbers": [],
+      "algorithm_type": "MarkovChain"
+    },
+    "Markov 2nd Order": {
+      "prediction": [
+        2,
+        7,
+        25,
+        31,
+        34,
+        43
+      ],
+      "matches": 0,
+      "matched_numbers": [],
+      "algorithm_type": "MarkovSecondOrder"
+    },
+    "KNN (k=5)": {
+      "prediction": [
+        3,
+        16,
+        23,
+        30,
+        31,
+        56
+      ],
+      "matches": 1,
+      "matched_numbers": [
+        30
+      ],
+      "algorithm_type": "KNNLottery"
+    },
+    "KNN Ensemble": {
+      "prediction": [
+        3,
+        16,
+        23,
+        30,
+        38,
+        53
+      ],
+      "matches": 2,
+      "matched_numbers": [
+        30,
+        53
+      ],
+      "algorithm_type": "KNNEnsemble"
+    },
+    "Naive Bayes": {
+      "prediction": [
+        6,
+        14,
+        23,
+        34,
+        44,
+        47
+      ],
+      "matches": 1,
+      "matched_numbers": [
+        6
+      ],
+      "algorithm_type": "NaiveBayesLottery"
+    },
+    "SVM": {
+      "prediction": [
+        6,
+        30,
+        31,
+        44,
+        47,
+        50
+      ],
+      "matches": 2,
+      "matched_numbers": [
+        6,
+        30
+      ],
+      "algorithm_type": "SVMLottery"
+    },
+    "Gaussian Process": {
+      "prediction": [
+        6,
+        23,
+        30,
+        44,
+        47,
+        50
+      ],
+      "matches": 2,
+      "matched_numbers": [
+        6,
+        30
+      ],
+      "algorithm_type": "GaussianProcessLottery"
+    },
+    "Bayesian Network": {
+      "prediction": [
+        24,
+        25,
+        30,
+        31,
+        33,
+        40
+      ],
+      "matches": 1,
+      "matched_numbers": [
+        30
+      ],
+      "algorithm_type": "BayesianNetworkLottery"
+    },
+    "Genetic Algorithm": {
+      "prediction": [
+        2,
+        3,
+        7,
+        24,
+        25,
+        31
+      ],
+      "matches": 0,
+      "matched_numbers": [],
+      "algorithm_type": "GeneticAlgorithmLottery"
+    },
+    "XGBoost": {
+      "prediction": [
+        7,
+        14,
+        25,
+        35,
+        41,
+        44
+      ],
+      "matches": 0,
+      "matched_numbers": [],
+      "algorithm_type": "XGBoostLottery"
+    },
+    "LSTM": {
+      "prediction": [
+        1,
+        3,
+        25,
+        31,
+        41,
+        50
+      ],
+      "matches": 0,
+      "matched_numbers": [],
+      "algorithm_type": "LSTMLottery"
+    },
+    "Prophet": {
+      "prediction": [
+        23,
+        30,
+        31,
+        33,
+        44,
+        50
+      ],
+      "matches": 1,
+      "matched_numbers": [
+        30
+      ],
+      "algorithm_type": "ProphetLottery"
+    },
+    "Random Forest": {
+      "prediction": [
+        6,
+        23,
+        30,
+        33,
+        35,
+        44
+      ],
+      "matches": 2,
+      "matched_numbers": [
+        6,
+        30
+      ],
+      "algorithm_type": "RandomForestLottery"
+    },
+    "Transformer": {
+      "prediction": [
+        3,
+        23,
+        25,
+        31,
+        41,
+        50
+      ],
+      "matches": 0,
+      "matched_numbers": [],
+      "algorithm_type": "TransformerLottery"
+    },
+    "Ensemble Voting": {
+      "prediction": [
+        23,
+        25,
+        30,
+        31,
+        41,
+        44
+      ],
+      "matches": 1,
+      "matched_numbers": [
+        30
+      ],
+      "algorithm_type": "EnsembleVoting"
+    }
+  },
+  "summary": {
+    "average_matches": 0.8823529411764706,
+    "max_matches": 2,
+    "min_matches": 0,
+    "baseline_expected": 0.6428571428571429
+  }
+}

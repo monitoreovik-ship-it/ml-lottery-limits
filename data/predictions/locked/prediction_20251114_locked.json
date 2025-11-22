@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "draw_date": "2025-11-14",
+    "prediction_timestamp": "2025-11-14T20:41:47.999220",
+    "training_data_size": 77,
+    "training_data_last_date": "2025-11-09",
+    "algorithms_count": 17
+  },
+  "predictions": {
+    "Random Baseline": {
+      "numbers": [
+        3,
+        11,
+        25,
+        28,
+        29,
+        40
+      ],
+      "algorithm_type": "RandomBaseline",
+      "requires_training": false
+    },
+    "Frequency Simple": {
+      "numbers": [
+        23,
+        25,
+        30,
+        31,
+        41,
+        44
+      ],
+      "algorithm_type": "FrequencySimple",
+      "requires_training": false
+    },
+    "Markov 1st Order": {
+      "numbers": [
+        2,
+        7,
+        25,
+        31,
+        34,
+        43
+      ],
+      "algorithm_type": "MarkovChain",
+      "requires_training": true
+    },
+    "Markov 2nd Order": {
+      "numbers": [
+        2,
+        7,
+        25,
+        31,
+        34,
+        43
+      ],
+      "algorithm_type": "MarkovSecondOrder",
+      "requires_training": true
+    },
+    "KNN (k=5)": {
+      "numbers": [
+        3,
+        16,
+        23,
+        30,
+        31,
+        56
+      ],
+      "algorithm_type": "KNNLottery",
+      "requires_training": true
+    },
+    "KNN Ensemble": {
+      "numbers": [
+        3,
+        16,
+        23,
+        30,
+        38,
+        53
+      ],
+      "algorithm_type": "KNNEnsemble",
+      "requires_training": true
+    },
+    "Naive Bayes": {
+      "numbers": [
+        6,
+        14,
+        23,
+        34,
+        44,
+        47
+      ],
+      "algorithm_type": "NaiveBayesLottery",
+      "requires_training": true
+    },
+    "SVM": {
+      "numbers": [
+        6,
+        30,
+        31,
+        44,
+        47,
+        50
+      ],
+      "algorithm_type": "SVMLottery",
+      "requires_training": true
+    },
+    "Gaussian Process": {
+      "numbers": [
+        6,
+        23,
+        30,
+        44,
+        47,
+        50
+      ],
+      "algorithm_type": "GaussianProcessLottery",
+      "requires_training": true
+    },
+    "Bayesian Network": {
+      "numbers": [
+        24,
+        25,
+        30,
+        31,
+        33,
+        40
+      ],
+      "algorithm_type": "BayesianNetworkLottery",
+      "requires_training": true
+    },
+    "Genetic Algorithm": {
+      "numbers": [
+        10,
+        23,
+        30,
+        31,
+        36,
+        41
+      ],
+      "algorithm_type": "GeneticAlgorithmLottery",
+      "requires_training": true
+    },
+    "XGBoost": {
+      "numbers": [
+        7,
+        14,
+        25,
+        35,
+        41,
+        44
+      ],
+      "algorithm_type": "XGBoostLottery",
+      "requires_training": true
+    },
+    "LSTM": {
+      "numbers": [
+        24,
+        25,
+        31,
+        33,
+        41,
+        50
+      ],
+      "algorithm_type": "LSTMLottery",
+      "requires_training": true
+    },
+    "Prophet": {
+      "numbers": [
+        23,
+        30,
+        31,
+        33,
+        44,
+        50
+      ],
+      "algorithm_type": "ProphetLottery",
+      "requires_training": true
+    },
+    "Random Forest": {
+      "numbers": [
+        6,
+        23,
+        30,
+        33,
+        35,
+        44
+      ],
+      "algorithm_type": "RandomForestLottery",
+      "requires_training": true
+    },
+    "Transformer": {
+      "numbers": [
+        7,
+        24,
+        25,
+        30,
+        31,
+        41
+      ],
+      "algorithm_type": "TransformerLottery",
+      "requires_training": true
+    },
+    "Ensemble Voting": {
+      "numbers": [
+        23,
+        25,
+        30,
+        31,
+        41,
+        44
+      ],
+      "algorithm_type": "EnsembleVoting",
+      "requires_training": true
+    }
+  },
+  "lock": {
+    "sha256": "b9c9091d350a6f48eb82d1ec234b377f333e61c5b3ee4c3841a321b62a700055",
+    "locked_at": "2025-11-14T20:42:44.698497",
+    "locked_by": "ProspectiveTestingSystem v1.0"
+  }
+}
