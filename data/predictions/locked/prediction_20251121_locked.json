@@ -1,0 +1,256 @@
+{
+  "metadata": {
+    "draw_date": "20251121",
+    "prediction_timestamp": "2025-11-22T05:51:10.630727",
+    "training_data_size": 78,
+    "training_data_last_date": "2025-11-09",
+    "algorithms_count": 17
+  },
+  "predictions": {
+    "Random Baseline": {
+      "numbers": [
+        2,
+        8,
+        16,
+        18,
+        41,
+        48
+      ],
+      "algorithm_type": "RandomBaseline",
+      "requires_training": false
+    },
+    "Frequency Simple": {
+      "numbers": [
+        12,
+        23,
+        25,
+        30,
+        31,
+        41
+      ],
+      "algorithm_type": "FrequencySimple",
+      "requires_training": false
+    },
+    "Markov 1st Order": {
+      "numbers": [
+        [
+          12,
+          11
+        ],
+        [
+          23,
+          11
+        ],
+        [
+          25,
+          12
+        ],
+        [
+          41,
+          11
+        ],
+        [
+          44,
+          11
+        ],
+        [
+          45,
+          10
+        ]
+      ],
+      "algorithm_type": "MarkovChain",
+      "requires_training": true
+    },
+    "Markov 2nd Order": {
+      "numbers": [
+        [
+          12,
+          11
+        ],
+        [
+          23,
+          11
+        ],
+        [
+          25,
+          12
+        ],
+        [
+          41,
+          11
+        ],
+        [
+          44,
+          11
+        ],
+        [
+          45,
+          10
+        ]
+      ],
+      "algorithm_type": "MarkovSecondOrder",
+      "requires_training": true
+    },
+    "KNN (k=5)": {
+      "numbers": [
+        12,
+        23,
+        25,
+        31,
+        41,
+        44
+      ],
+      "algorithm_type": "KNNLottery",
+      "requires_training": true
+    },
+    "KNN Ensemble": {
+      "numbers": [
+        30,
+        31,
+        36,
+        40,
+        44,
+        45
+      ],
+      "algorithm_type": "KNNEnsemble",
+      "requires_training": true
+    },
+    "Naive Bayes": {
+      "numbers": [
+        12,
+        24,
+        25,
+        40,
+        41,
+        44
+      ],
+      "algorithm_type": "NaiveBayesLottery",
+      "requires_training": true
+    },
+    "SVM": {
+      "numbers": [
+        3,
+        12,
+        23,
+        30,
+        44,
+        45
+      ],
+      "algorithm_type": "SVMLottery",
+      "requires_training": true
+    },
+    "Gaussian Process": {
+      "numbers": [
+        23,
+        25,
+        31,
+        36,
+        41,
+        44
+      ],
+      "algorithm_type": "GaussianProcessLottery",
+      "requires_training": true
+    },
+    "Bayesian Network": {
+      "numbers": [
+        3,
+        12,
+        25,
+        31,
+        44,
+        45
+      ],
+      "algorithm_type": "BayesianNetworkLottery",
+      "requires_training": true
+    },
+    "Genetic Algorithm": {
+      "numbers": [
+        12,
+        33,
+        40,
+        44,
+        45,
+        50
+      ],
+      "algorithm_type": "GeneticAlgorithmLottery",
+      "requires_training": true
+    },
+    "XGBoost": {
+      "numbers": [
+        3,
+        24,
+        25,
+        36,
+        41,
+        45
+      ],
+      "algorithm_type": "XGBoostLottery",
+      "requires_training": true
+    },
+    "LSTM": {
+      "numbers": [
+        3,
+        12,
+        30,
+        31,
+        36,
+        41
+      ],
+      "algorithm_type": "LSTMLottery",
+      "requires_training": true
+    },
+    "Prophet": {
+      "numbers": [
+        3,
+        12,
+        23,
+        31,
+        44,
+        45
+      ],
+      "algorithm_type": "ProphetLottery",
+      "requires_training": true
+    },
+    "Random Forest": {
+      "numbers": [
+        23,
+        24,
+        31,
+        41,
+        44,
+        45
+      ],
+      "algorithm_type": "RandomForestLottery",
+      "requires_training": true
+    },
+    "Transformer": {
+      "numbers": [
+        12,
+        23,
+        24,
+        31,
+        40,
+        41
+      ],
+      "algorithm_type": "TransformerLottery",
+      "requires_training": true
+    },
+    "Ensemble Voting": {
+      "numbers": [
+        12,
+        23,
+        25,
+        30,
+        31,
+        41
+      ],
+      "algorithm_type": "EnsembleVoting",
+      "requires_training": true
+    }
+  },
+  "lock": {
+    "sha256": "cad6cb0698bcdfc8dc1ad00504c693ede70779d741a1f4ecef9274f73574570e",
+    "locked_at": "2025-11-22T05:51:10.630706",
+    "locked_by": "ProspectiveTestingSystem v1.0"
+  }
+}
