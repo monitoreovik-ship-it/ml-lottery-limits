@@ -1,0 +1,261 @@
+{
+  "metadata": {
+    "draw_date": "20251126",
+    "evaluation_timestamp": "2025-11-27T06:14:03.546378",
+    "system_version": "Quantum V7.1 (Post Test #4)"
+  },
+  "official_numbers": [
+    16,
+    21,
+    28,
+    34,
+    42,
+    53
+  ],
+  "quantum_prediction": {
+    "metadata": {
+      "system_version": "Quantum V7.1 (Post Test #4)",
+      "draw_date": "20251126",
+      "prediction_timestamp": "2025-11-25T23:43:39.420987",
+      "methodology": "Balanced Quantum-Probabilistic",
+      "improvements": [
+        "Penalizaci\u00f3n de n\u00fameros sobre-valorados (30, 31, 44)",
+        "Nuevo modelo: Frecuencia Balanceada (30%)",
+        "Nuevo modelo: Ganadores Recientes (20%)",
+        "Pesos ajustados basados en Test #4"
+      ]
+    },
+    "quantum_state": {
+      "model_weights": {
+        "wave_function": 0.15,
+        "balanced_frequency": 0.3,
+        "recent_winners": 0.2,
+        "anti_frequency": 0.2,
+        "oscillation": 0.15
+      },
+      "top_probabilities": {
+        "38": 0.030950953740194867,
+        "24": 0.03047487115074058,
+        "31": 0.02904832138039664,
+        "40": 0.023428862474637862,
+        "1": 0.023100347362942725,
+        "3": 0.02273920730222407,
+        "45": 0.02273920730222407,
+        "30": 0.022710582514961053,
+        "42": 0.022689984439511285,
+        "35": 0.022410692190528932,
+        "49": 0.022361469327816144,
+        "55": 0.022361469327816144,
+        "25": 0.022150408827060396,
+        "19": 0.022082177078833795,
+        "23": 0.02182189371536526,
+        "16": 0.021753661967138658,
+        "53": 0.021753661967138658,
+        "51": 0.02142514685544352,
+        "22": 0.020097470345153266,
+        "56": 0.020097470345153266
+      },
+      "overrated_numbers_penalized": [
+        30,
+        31,
+        44
+      ]
+    },
+    "predictions": {
+      "primary": [
+        17,
+        36,
+        49,
+        51,
+        52,
+        54
+      ],
+      "alternative_1": [
+        23,
+        24,
+        38,
+        40,
+        42,
+        43
+      ],
+      "alternative_2": [
+        10,
+        19,
+        27,
+        37,
+        39,
+        45
+      ]
+    }
+  },
+  "combinations_evaluation": {
+    "primary": {
+      "prediction": [
+        17,
+        36,
+        49,
+        51,
+        52,
+        54
+      ],
+      "matches": 0,
+      "matched_numbers": [],
+      "match_percentage": 0.0
+    },
+    "alternative_1": {
+      "prediction": [
+        23,
+        24,
+        38,
+        40,
+        42,
+        43
+      ],
+      "matches": 1,
+      "matched_numbers": [
+        42
+      ],
+      "match_percentage": 16.666666666666664
+    },
+    "alternative_2": {
+      "prediction": [
+        10,
+        19,
+        27,
+        37,
+        39,
+        45
+      ],
+      "matches": 0,
+      "matched_numbers": [],
+      "match_percentage": 0.0
+    }
+  },
+  "probability_analysis": {
+    "top_5": {
+      "predicted": [
+        38,
+        24,
+        31,
+        40,
+        1
+      ],
+      "hits": 0,
+      "hit_rate": 0.0,
+      "expected_random": 0.5357142857142857
+    },
+    "top_10": {
+      "predicted": [
+        38,
+        24,
+        31,
+        40,
+        1,
+        3,
+        45,
+        30,
+        42,
+        35
+      ],
+      "hits": 1,
+      "hit_rate": 16.666666666666664,
+      "expected_random": 1.0714285714285714
+    },
+    "top_15": {
+      "predicted": [
+        38,
+        24,
+        31,
+        40,
+        1,
+        3,
+        45,
+        30,
+        42,
+        35,
+        49,
+        55,
+        25,
+        19,
+        23
+      ],
+      "hits": 1,
+      "hit_rate": 16.666666666666664,
+      "expected_random": 1.6071428571428572
+    },
+    "top_20": {
+      "predicted": [
+        38,
+        24,
+        31,
+        40,
+        1,
+        3,
+        45,
+        30,
+        42,
+        35,
+        49,
+        55,
+        25,
+        19,
+        23,
+        16,
+        53,
+        51,
+        22,
+        56
+      ],
+      "hits": 3,
+      "hit_rate": 50.0,
+      "expected_random": 2.142857142857143
+    }
+  },
+  "cold_hot_analysis": {
+    "official": {
+      "hot": [],
+      "neutral": [
+        16,
+        21,
+        28,
+        34,
+        42,
+        53
+      ],
+      "cold": []
+    },
+    "predicted": {
+      "hot": [
+        23
+      ],
+      "neutral": [
+        36,
+        38,
+        39,
+        40,
+        42,
+        43,
+        45,
+        17,
+        52,
+        19,
+        54,
+        24,
+        27
+      ],
+      "cold": [
+        37,
+        10,
+        49,
+        51
+      ]
+    },
+    "avg_frequency": 8.357142857142858
+  },
+  "summary": {
+    "average_matches": 0.3333333333333333,
+    "best_matches": 1,
+    "baseline": 0.64,
+    "improvement_over_baseline": -47.91666666666667
+  }
+}
