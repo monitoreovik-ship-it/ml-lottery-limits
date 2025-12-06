@@ -1,0 +1,144 @@
+{
+  "test_number": 9,
+  "evaluation_date": "2025-12-06T03:55:52.904490",
+  "sorteo": {
+    "sorteo_number": 4144,
+    "date": "2025-12-05",
+    "winning_numbers": [
+      1,
+      4,
+      28,
+      44,
+      52,
+      55
+    ],
+    "additional": 5
+  },
+  "predictions": {
+    "test_number": 9,
+    "system": "hybrid_v9.0_refined",
+    "combinations": [
+      {
+        "id": 1,
+        "numbers": [
+          6,
+          15,
+          38,
+          41,
+          53,
+          56
+        ],
+        "score": 27.85,
+        "label": "Principal"
+      },
+      {
+        "id": 2,
+        "numbers": [
+          6,
+          10,
+          19,
+          38,
+          41,
+          56
+        ],
+        "score": 27.85,
+        "label": "Alternativa 1"
+      },
+      {
+        "id": 3,
+        "numbers": [
+          6,
+          29,
+          38,
+          41,
+          53,
+          56
+        ],
+        "score": 27.85,
+        "label": "Alternativa 2"
+      }
+    ]
+  },
+  "results": [
+    {
+      "combination_id": 1,
+      "label": "Principal",
+      "predicted": [
+        6,
+        15,
+        38,
+        41,
+        53,
+        56
+      ],
+      "score": 27.85,
+      "matches": [],
+      "matches_count": 0,
+      "matches_with_additional": [],
+      "matches_with_additional_count": 0,
+      "success": false
+    },
+    {
+      "combination_id": 2,
+      "label": "Alternativa 1",
+      "predicted": [
+        6,
+        10,
+        19,
+        38,
+        41,
+        56
+      ],
+      "score": 27.85,
+      "matches": [],
+      "matches_count": 0,
+      "matches_with_additional": [],
+      "matches_with_additional_count": 0,
+      "success": false
+    },
+    {
+      "combination_id": 3,
+      "label": "Alternativa 2",
+      "predicted": [
+        6,
+        29,
+        38,
+        41,
+        53,
+        56
+      ],
+      "score": 27.85,
+      "matches": [],
+      "matches_count": 0,
+      "matches_with_additional": [],
+      "matches_with_additional_count": 0,
+      "success": false
+    }
+  ],
+  "statistics": {
+    "total_matches": 0,
+    "average_matches": 0.0,
+    "best_combination": {
+      "id": 1,
+      "label": "Principal",
+      "matches": 0
+    }
+  },
+  "conclusions": {
+    "momentum_hypothesis": "INVALIDADO - Números Test #8 [6,38,41,42,56] NO salieron",
+    "overvalued_strategy": "FALLÓ - #44 salió después de evitarlo sistemáticamente",
+    "balance_analysis": {
+      "predicted": "1 hot, 3 neutral, 2 cold (33% fríos)",
+      "actual": "1 hot, 1 neutral, 4 cold (66.7% fríos)",
+      "assessment": "Sorteo fue extremo (66.7% fríos) como Test #7"
+    },
+    "key_learnings": [
+      "Momentum de sorteo anterior NO funciona",
+      "Evitar sobre-valorados al 100% fue error (#44 salió)",
+      "Validación histórica (#38, #42) falló en Test #9",
+      "Balance extremo (66.7% fríos) es impredecible",
+      "Único acierto: #55 (neutral Top 9)",
+      "Sistema híbrido mantiene promedio 1.0 pero con alta varianza"
+    ]
+  }
+}
