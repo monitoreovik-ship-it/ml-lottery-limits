@@ -1,0 +1,330 @@
+{
+  "test_number": 10,
+  "date": "2025-12-06T04:34:43.727205",
+  "draw_date": "2025-12-08",
+  "system": "minimalist_v10.0",
+  "philosophy": "Less is more - Pure quantum with minimal rules",
+  "all_combinations": [
+    {
+      "run": 2,
+      "combo_id": 3,
+      "numbers": [
+        18,
+        22,
+        23,
+        26,
+        28,
+        33
+      ],
+      "entanglement": 0.0033,
+      "hot": 0,
+      "neutral": 2,
+      "cold": 4,
+      "has_overvalued": false
+    },
+    {
+      "run": 2,
+      "combo_id": 1,
+      "numbers": [
+        7,
+        18,
+        25,
+        36,
+        38,
+        46
+      ],
+      "entanglement": 0.0008,
+      "hot": 1,
+      "neutral": 1,
+      "cold": 4,
+      "has_overvalued": false
+    },
+    {
+      "run": 3,
+      "combo_id": 3,
+      "numbers": [
+        6,
+        9,
+        17,
+        24,
+        32,
+        47
+      ],
+      "entanglement": 0.0006,
+      "hot": 1,
+      "neutral": 2,
+      "cold": 3,
+      "has_overvalued": false
+    },
+    {
+      "run": 4,
+      "combo_id": 1,
+      "numbers": [
+        3,
+        19,
+        33,
+        40,
+        50,
+        55
+      ],
+      "entanglement": 0.0006,
+      "hot": 0,
+      "neutral": 1,
+      "cold": 5,
+      "has_overvalued": false
+    },
+    {
+      "run": 3,
+      "combo_id": 2,
+      "numbers": [
+        4,
+        17,
+        18,
+        24,
+        27,
+        38
+      ],
+      "entanglement": 0.0005,
+      "hot": 2,
+      "neutral": 0,
+      "cold": 4,
+      "has_overvalued": false
+    },
+    {
+      "run": 5,
+      "combo_id": 1,
+      "numbers": [
+        3,
+        17,
+        20,
+        23,
+        35,
+        49
+      ],
+      "entanglement": 0.0004,
+      "hot": 0,
+      "neutral": 2,
+      "cold": 4,
+      "has_overvalued": false
+    },
+    {
+      "run": 1,
+      "combo_id": 1,
+      "numbers": [
+        2,
+        18,
+        34,
+        40,
+        42,
+        54
+      ],
+      "entanglement": 0.0003,
+      "hot": 0,
+      "neutral": 1,
+      "cold": 5,
+      "has_overvalued": false
+    },
+    {
+      "run": 1,
+      "combo_id": 2,
+      "numbers": [
+        2,
+        16,
+        23,
+        29,
+        48,
+        53
+      ],
+      "entanglement": 0.0003,
+      "hot": 0,
+      "neutral": 1,
+      "cold": 5,
+      "has_overvalued": false
+    },
+    {
+      "run": 1,
+      "combo_id": 3,
+      "numbers": [
+        6,
+        24,
+        32,
+        37,
+        40,
+        54
+      ],
+      "entanglement": 0.0003,
+      "hot": 1,
+      "neutral": 1,
+      "cold": 4,
+      "has_overvalued": false
+    },
+    {
+      "run": 3,
+      "combo_id": 1,
+      "numbers": [
+        1,
+        10,
+        18,
+        33,
+        34,
+        35
+      ],
+      "entanglement": 0.0003,
+      "hot": 0,
+      "neutral": 0,
+      "cold": 6,
+      "has_overvalued": false
+    },
+    {
+      "run": 4,
+      "combo_id": 2,
+      "numbers": [
+        2,
+        3,
+        18,
+        28,
+        29,
+        38
+      ],
+      "entanglement": 0.0003,
+      "hot": 1,
+      "neutral": 0,
+      "cold": 5,
+      "has_overvalued": false
+    },
+    {
+      "run": 4,
+      "combo_id": 3,
+      "numbers": [
+        9,
+        11,
+        12,
+        17,
+        37,
+        54
+      ],
+      "entanglement": 0.0002,
+      "hot": 0,
+      "neutral": 0,
+      "cold": 6,
+      "has_overvalued": false
+    },
+    {
+      "run": 2,
+      "combo_id": 2,
+      "numbers": [
+        4,
+        8,
+        10,
+        13,
+        39,
+        40
+      ],
+      "entanglement": 0.0001,
+      "hot": 0,
+      "neutral": 0,
+      "cold": 6,
+      "has_overvalued": false
+    },
+    {
+      "run": 5,
+      "combo_id": 3,
+      "numbers": [
+        3,
+        28,
+        39,
+        40,
+        45,
+        53
+      ],
+      "entanglement": 0.0001,
+      "hot": 0,
+      "neutral": 0,
+      "cold": 6,
+      "has_overvalued": false
+    },
+    {
+      "run": 5,
+      "combo_id": 2,
+      "numbers": [
+        2,
+        3,
+        5,
+        7,
+        9,
+        47
+      ],
+      "entanglement": 0.0,
+      "hot": 0,
+      "neutral": 1,
+      "cold": 5,
+      "has_overvalued": false
+    }
+  ],
+  "top_3": [
+    {
+      "run": 2,
+      "combo_id": 3,
+      "numbers": [
+        18,
+        22,
+        23,
+        26,
+        28,
+        33
+      ],
+      "entanglement": 0.0033,
+      "hot": 0,
+      "neutral": 2,
+      "cold": 4,
+      "has_overvalued": false
+    },
+    {
+      "run": 2,
+      "combo_id": 1,
+      "numbers": [
+        7,
+        18,
+        25,
+        36,
+        38,
+        46
+      ],
+      "entanglement": 0.0008,
+      "hot": 1,
+      "neutral": 1,
+      "cold": 4,
+      "has_overvalued": false
+    },
+    {
+      "run": 3,
+      "combo_id": 3,
+      "numbers": [
+        6,
+        9,
+        17,
+        24,
+        32,
+        47
+      ],
+      "entanglement": 0.0006,
+      "hot": 1,
+      "neutral": 2,
+      "cold": 3,
+      "has_overvalued": false
+    }
+  ],
+  "statistics": {
+    "with_overvalued": 0,
+    "with_overvalued_percent": 0.0,
+    "balance_distribution": {
+      "0-2-4": 2,
+      "1-1-4": 2,
+      "1-2-3": 1,
+      "0-1-5": 4,
+      "2-0-4": 1,
+      "0-0-6": 4,
+      "1-0-5": 1
+    }
+  }
+}
