@@ -1,0 +1,470 @@
+{
+  "test_number": 11,
+  "date": "2025-12-07T23:53:34.908245",
+  "draw_date": "2025-12-11",
+  "system": "ultra_pure_v11.0",
+  "all_combinations": [
+    {
+      "run": 2,
+      "combo_id": 3,
+      "numbers": [
+        8,
+        14,
+        23,
+        28,
+        32,
+        41
+      ],
+      "entanglement": 0.0018,
+      "clustering": {
+        "range": 33,
+        "min": 8,
+        "max": 41,
+        "std": 10.99,
+        "clustered": false
+      }
+    },
+    {
+      "run": 3,
+      "combo_id": 3,
+      "numbers": [
+        6,
+        14,
+        15,
+        19,
+        21,
+        24
+      ],
+      "entanglement": 0.0014,
+      "clustering": {
+        "range": 18,
+        "min": 6,
+        "max": 24,
+        "std": 5.8,
+        "clustered": true
+      }
+    },
+    {
+      "run": 1,
+      "combo_id": 4,
+      "numbers": [
+        17,
+        20,
+        23,
+        33,
+        37,
+        38
+      ],
+      "entanglement": 0.0009,
+      "clustering": {
+        "range": 21,
+        "min": 17,
+        "max": 38,
+        "std": 8.33,
+        "clustered": true
+      }
+    },
+    {
+      "run": 3,
+      "combo_id": 5,
+      "numbers": [
+        5,
+        10,
+        15,
+        21,
+        31,
+        45
+      ],
+      "entanglement": 0.0007,
+      "clustering": {
+        "range": 40,
+        "min": 5,
+        "max": 45,
+        "std": 13.47,
+        "clustered": false
+      }
+    },
+    {
+      "run": 1,
+      "combo_id": 5,
+      "numbers": [
+        3,
+        7,
+        12,
+        28,
+        33,
+        39
+      ],
+      "entanglement": 0.0005,
+      "clustering": {
+        "range": 36,
+        "min": 3,
+        "max": 39,
+        "std": 13.63,
+        "clustered": false
+      }
+    },
+    {
+      "run": 2,
+      "combo_id": 2,
+      "numbers": [
+        3,
+        4,
+        11,
+        13,
+        24,
+        35
+      ],
+      "entanglement": 0.0005,
+      "clustering": {
+        "range": 32,
+        "min": 3,
+        "max": 35,
+        "std": 11.3,
+        "clustered": false
+      }
+    },
+    {
+      "run": 3,
+      "combo_id": 4,
+      "numbers": [
+        16,
+        17,
+        29,
+        31,
+        34,
+        46
+      ],
+      "entanglement": 0.0004,
+      "clustering": {
+        "range": 30,
+        "min": 16,
+        "max": 46,
+        "std": 10.25,
+        "clustered": false
+      }
+    },
+    {
+      "run": 4,
+      "combo_id": 1,
+      "numbers": [
+        3,
+        7,
+        19,
+        40,
+        49,
+        54
+      ],
+      "entanglement": 0.0003,
+      "clustering": {
+        "range": 51,
+        "min": 3,
+        "max": 54,
+        "std": 20.02,
+        "clustered": false
+      }
+    },
+    {
+      "run": 4,
+      "combo_id": 2,
+      "numbers": [
+        7,
+        10,
+        13,
+        32,
+        42,
+        46
+      ],
+      "entanglement": 0.0003,
+      "clustering": {
+        "range": 39,
+        "min": 7,
+        "max": 46,
+        "std": 15.66,
+        "clustered": false
+      }
+    },
+    {
+      "run": 4,
+      "combo_id": 4,
+      "numbers": [
+        2,
+        18,
+        22,
+        37,
+        42,
+        44
+      ],
+      "entanglement": 0.0003,
+      "clustering": {
+        "range": 42,
+        "min": 2,
+        "max": 44,
+        "std": 14.96,
+        "clustered": false
+      }
+    },
+    {
+      "run": 1,
+      "combo_id": 2,
+      "numbers": [
+        2,
+        21,
+        23,
+        35,
+        42,
+        44
+      ],
+      "entanglement": 0.0002,
+      "clustering": {
+        "range": 42,
+        "min": 2,
+        "max": 44,
+        "std": 14.44,
+        "clustered": false
+      }
+    },
+    {
+      "run": 1,
+      "combo_id": 3,
+      "numbers": [
+        9,
+        14,
+        15,
+        24,
+        44,
+        52
+      ],
+      "entanglement": 0.0002,
+      "clustering": {
+        "range": 43,
+        "min": 9,
+        "max": 52,
+        "std": 16.11,
+        "clustered": false
+      }
+    },
+    {
+      "run": 2,
+      "combo_id": 1,
+      "numbers": [
+        9,
+        11,
+        29,
+        30,
+        33,
+        43
+      ],
+      "entanglement": 0.0002,
+      "clustering": {
+        "range": 34,
+        "min": 9,
+        "max": 43,
+        "std": 12.09,
+        "clustered": false
+      }
+    },
+    {
+      "run": 2,
+      "combo_id": 5,
+      "numbers": [
+        1,
+        4,
+        23,
+        39,
+        54,
+        56
+      ],
+      "entanglement": 0.0002,
+      "clustering": {
+        "range": 55,
+        "min": 1,
+        "max": 56,
+        "std": 21.98,
+        "clustered": false
+      }
+    },
+    {
+      "run": 3,
+      "combo_id": 1,
+      "numbers": [
+        7,
+        24,
+        26,
+        29,
+        38,
+        55
+      ],
+      "entanglement": 0.0002,
+      "clustering": {
+        "range": 48,
+        "min": 7,
+        "max": 55,
+        "std": 14.55,
+        "clustered": false
+      }
+    },
+    {
+      "run": 4,
+      "combo_id": 3,
+      "numbers": [
+        4,
+        8,
+        12,
+        22,
+        46,
+        54
+      ],
+      "entanglement": 0.0002,
+      "clustering": {
+        "range": 50,
+        "min": 4,
+        "max": 54,
+        "std": 19.09,
+        "clustered": false
+      }
+    },
+    {
+      "run": 4,
+      "combo_id": 5,
+      "numbers": [
+        8,
+        19,
+        26,
+        47,
+        48,
+        53
+      ],
+      "entanglement": 0.0002,
+      "clustering": {
+        "range": 45,
+        "min": 8,
+        "max": 53,
+        "std": 16.78,
+        "clustered": false
+      }
+    },
+    {
+      "run": 1,
+      "combo_id": 1,
+      "numbers": [
+        3,
+        34,
+        37,
+        38,
+        46,
+        50
+      ],
+      "entanglement": 0.0001,
+      "clustering": {
+        "range": 47,
+        "min": 3,
+        "max": 50,
+        "std": 15.18,
+        "clustered": false
+      }
+    },
+    {
+      "run": 2,
+      "combo_id": 4,
+      "numbers": [
+        7,
+        8,
+        9,
+        23,
+        48,
+        51
+      ],
+      "entanglement": 0.0001,
+      "clustering": {
+        "range": 44,
+        "min": 7,
+        "max": 51,
+        "std": 18.6,
+        "clustered": false
+      }
+    },
+    {
+      "run": 3,
+      "combo_id": 2,
+      "numbers": [
+        9,
+        18,
+        20,
+        22,
+        26,
+        51
+      ],
+      "entanglement": 0.0001,
+      "clustering": {
+        "range": 42,
+        "min": 9,
+        "max": 51,
+        "std": 13.0,
+        "clustered": false
+      }
+    }
+  ],
+  "top_3": [
+    {
+      "run": 2,
+      "combo_id": 3,
+      "numbers": [
+        8,
+        14,
+        23,
+        28,
+        32,
+        41
+      ],
+      "entanglement": 0.0018,
+      "clustering": {
+        "range": 33,
+        "min": 8,
+        "max": 41,
+        "std": 10.99,
+        "clustered": false
+      }
+    },
+    {
+      "run": 3,
+      "combo_id": 3,
+      "numbers": [
+        6,
+        14,
+        15,
+        19,
+        21,
+        24
+      ],
+      "entanglement": 0.0014,
+      "clustering": {
+        "range": 18,
+        "min": 6,
+        "max": 24,
+        "std": 5.8,
+        "clustered": true
+      }
+    },
+    {
+      "run": 1,
+      "combo_id": 4,
+      "numbers": [
+        17,
+        20,
+        23,
+        33,
+        37,
+        38
+      ],
+      "entanglement": 0.0009,
+      "clustering": {
+        "range": 21,
+        "min": 17,
+        "max": 38,
+        "std": 8.33,
+        "clustered": true
+      }
+    }
+  ]
+}
