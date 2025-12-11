@@ -1,0 +1,150 @@
+{
+  "test_number": 11,
+  "evaluation_date": "2025-12-11T00:30:10.910992",
+  "sorteo": {
+    "sorteo_number": 4146,
+    "date": "2025-12-10",
+    "winning_numbers": [
+      4,
+      22,
+      29,
+      38,
+      44,
+      50
+    ],
+    "additional": 9
+  },
+  "predictions": {
+    "test_number": 11,
+    "system": "ultra_pure_v11.0",
+    "combinations": [
+      {
+        "id": 1,
+        "numbers": [
+          8,
+          14,
+          23,
+          28,
+          32,
+          41
+        ],
+        "entanglement": 0.0018,
+        "label": "Principal"
+      },
+      {
+        "id": 2,
+        "numbers": [
+          6,
+          14,
+          15,
+          19,
+          21,
+          24
+        ],
+        "entanglement": 0.0014,
+        "label": "Alternativa 1"
+      },
+      {
+        "id": 3,
+        "numbers": [
+          17,
+          20,
+          23,
+          33,
+          37,
+          38
+        ],
+        "entanglement": 0.0009,
+        "label": "Alternativa 2"
+      }
+    ]
+  },
+  "results": [
+    {
+      "combination_id": 1,
+      "label": "Principal",
+      "predicted": [
+        8,
+        14,
+        23,
+        28,
+        32,
+        41
+      ],
+      "entanglement": 0.0018,
+      "matches": [],
+      "matches_count": 0,
+      "success": false
+    },
+    {
+      "combination_id": 2,
+      "label": "Alternativa 1",
+      "predicted": [
+        6,
+        14,
+        15,
+        19,
+        21,
+        24
+      ],
+      "entanglement": 0.0014,
+      "matches": [],
+      "matches_count": 0,
+      "success": false
+    },
+    {
+      "combination_id": 3,
+      "label": "Alternativa 2",
+      "predicted": [
+        17,
+        20,
+        23,
+        33,
+        37,
+        38
+      ],
+      "entanglement": 0.0009,
+      "matches": [
+        38
+      ],
+      "matches_count": 1,
+      "success": true
+    }
+  ],
+  "statistics": {
+    "total_matches": 1,
+    "average_matches": 0.33,
+    "best_combination": {
+      "id": 3,
+      "label": "Alternativa 2",
+      "matches": 1
+    }
+  },
+  "critical_analysis": {
+    "entanglement_hypothesis": "INVALIDATED - Lower entanglement won",
+    "sorteo_range": 46,
+    "sorteo_clustering": "NO - Range 46 dispersed",
+    "test10_comparison": {
+      "test10_range": 25,
+      "test10_clustering": "YES",
+      "test11_range": 46,
+      "test11_clustering": "NO"
+    },
+    "key_insight": "Entanglement predicts clustering WHEN it occurs, but NOT WHEN",
+    "overvalued_44": "#44 appeared - avoiding was mistake",
+    "validated_38": "#38 appeared again (4th time)",
+    "regression": "Test #10: 3.0, Test #11: 1.0 = -67% drop"
+  },
+  "conclusions": {
+    "minimalism_status": "Still leads 2.0 avg but high variance",
+    "entanglement_status": "Inconsistent predictor",
+    "strategy_forward": "Continue minimalism, need n>=5, consider forcing #38",
+    "learnings": [
+      "Entanglement works only with clustering sorteos",
+      "Cannot predict WHEN clustering will occur",
+      "#38 is consistently important",
+      "#44 overvalued classification was wrong",
+      "High variance inherent in all systems"
+    ]
+  }
+}
