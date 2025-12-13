@@ -1,0 +1,146 @@
+{
+  "test_number": 12,
+  "evaluation_date": "2025-12-12T23:33:12.310933",
+  "sorteo": {
+    "sorteo_number": 4147,
+    "date": "2025-12-12",
+    "winning_numbers": [
+      4,
+      9,
+      24,
+      39,
+      44,
+      48
+    ],
+    "additional": 1
+  },
+  "predictions": {
+    "test_number": 12,
+    "system": "minimalist_plus_38_v12.0",
+    "combinations": [
+      {
+        "id": 1,
+        "numbers": [
+          7,
+          11,
+          19,
+          32,
+          38,
+          44
+        ],
+        "entanglement": 0.0009,
+        "has_38": true,
+        "label": "Principal"
+      },
+      {
+        "id": 2,
+        "numbers": [
+          19,
+          20,
+          31,
+          37,
+          38,
+          39
+        ],
+        "entanglement": 0.0006,
+        "has_38": true,
+        "label": "Alternativa 1"
+      },
+      {
+        "id": 3,
+        "numbers": [
+          5,
+          13,
+          25,
+          32,
+          34,
+          41
+        ],
+        "entanglement": 0.0009,
+        "has_38": false,
+        "label": "Alternativa 2"
+      }
+    ]
+  },
+  "results": [
+    {
+      "combination_id": 1,
+      "label": "Principal",
+      "predicted": [
+        7,
+        11,
+        19,
+        32,
+        38,
+        44
+      ],
+      "has_38": true,
+      "matches": [
+        44
+      ],
+      "matches_count": 1,
+      "success": true
+    },
+    {
+      "combination_id": 2,
+      "label": "Alternativa 1",
+      "predicted": [
+        19,
+        20,
+        31,
+        37,
+        38,
+        39
+      ],
+      "has_38": true,
+      "matches": [
+        39
+      ],
+      "matches_count": 1,
+      "success": true
+    },
+    {
+      "combination_id": 3,
+      "label": "Alternativa 2",
+      "predicted": [
+        5,
+        13,
+        25,
+        32,
+        34,
+        41
+      ],
+      "has_38": false,
+      "matches": [],
+      "matches_count": 0,
+      "success": false
+    }
+  ],
+  "statistics": {
+    "total_matches": 2,
+    "average_matches": 0.67
+  },
+  "analysis": {
+    "number_38_appeared": false,
+    "number_44_appeared": true,
+    "sorteo_range": 44,
+    "sorteo_dispersed": true,
+    "combos_with_38_hit": 2,
+    "strategy_38_validated": false
+  },
+  "conclusions": {
+    "minimalism_avg": "2.0 maintained (3.0→1.0→2.0)",
+    "forcing_38_result": "#38 did NOT appear - first failure after 4 hits",
+    "number_44_validated": "#44 appeared - correct to stop avoiding it",
+    "dispersed_sorteo": "Range 44 (very dispersed, like Test #11)",
+    "learnings": [
+      "Forcing #38 did NOT improve results vs pure minimalism",
+      "#38 is not infallible - regression to mean expected",
+      "#44 validated - top numbers DO appear",
+      "Dispersed sorteos more common than clustering",
+      "Minimalism maintains 2.0 avg with high variance",
+      "Pure minimalism seems sufficient"
+    ],
+    "strategy_forward": "Return to pure minimalism for Tests #13-15"
+  }
+}
