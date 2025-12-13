@@ -1,0 +1,488 @@
+{
+  "test_number": 12,
+  "date": "2025-12-12T20:44:45.556014",
+  "draw_date": "2025-12-14",
+  "system": "minimalist_plus_38_v12.0",
+  "strategy": {
+    "description": "Minimalism + Force #38",
+    "reason": "#38 has hit 4 times (most consistent number)",
+    "approach": [
+      "Generate 20 quantum combinations",
+      "Force #38 in 50% of them",
+      "Select Top 3 with at least 2 having #38",
+      "Cover both clustering and dispersed scenarios"
+    ]
+  },
+  "all_combinations": [
+    {
+      "run": 1,
+      "combo_id": 1,
+      "numbers": [
+        2,
+        8,
+        30,
+        38,
+        48,
+        50
+      ],
+      "entanglement": 0.0002,
+      "clustering": {
+        "range": 48,
+        "min": 2,
+        "max": 50,
+        "clustered": false,
+        "has_38": true
+      }
+    },
+    {
+      "run": 1,
+      "combo_id": 2,
+      "numbers": [
+        7,
+        22,
+        31,
+        38,
+        39,
+        41
+      ],
+      "entanglement": 0.0004,
+      "clustering": {
+        "range": 34,
+        "min": 7,
+        "max": 41,
+        "clustered": false,
+        "has_38": true
+      }
+    },
+    {
+      "run": 1,
+      "combo_id": 3,
+      "numbers": [
+        13,
+        31,
+        34,
+        38,
+        44,
+        47
+      ],
+      "entanglement": 0.0003,
+      "clustering": {
+        "range": 34,
+        "min": 13,
+        "max": 47,
+        "clustered": false,
+        "has_38": true
+      }
+    },
+    {
+      "run": 1,
+      "combo_id": 4,
+      "numbers": [
+        5,
+        13,
+        25,
+        32,
+        34,
+        41
+      ],
+      "entanglement": 0.0009,
+      "clustering": {
+        "range": 36,
+        "min": 5,
+        "max": 41,
+        "clustered": false,
+        "has_38": false
+      }
+    },
+    {
+      "run": 1,
+      "combo_id": 5,
+      "numbers": [
+        3,
+        9,
+        13,
+        34,
+        40,
+        51
+      ],
+      "entanglement": 0.0003,
+      "clustering": {
+        "range": 48,
+        "min": 3,
+        "max": 51,
+        "clustered": false,
+        "has_38": false
+      }
+    },
+    {
+      "run": 2,
+      "combo_id": 1,
+      "numbers": [
+        19,
+        20,
+        31,
+        37,
+        38,
+        39
+      ],
+      "entanglement": 0.0006,
+      "clustering": {
+        "range": 20,
+        "min": 19,
+        "max": 39,
+        "clustered": true,
+        "has_38": true
+      }
+    },
+    {
+      "run": 2,
+      "combo_id": 2,
+      "numbers": [
+        1,
+        33,
+        36,
+        38,
+        41,
+        55
+      ],
+      "entanglement": 0.0001,
+      "clustering": {
+        "range": 54,
+        "min": 1,
+        "max": 55,
+        "clustered": false,
+        "has_38": true
+      }
+    },
+    {
+      "run": 2,
+      "combo_id": 3,
+      "numbers": [
+        1,
+        18,
+        21,
+        28,
+        38,
+        54
+      ],
+      "entanglement": 0.0003,
+      "clustering": {
+        "range": 53,
+        "min": 1,
+        "max": 54,
+        "clustered": false,
+        "has_38": true
+      }
+    },
+    {
+      "run": 2,
+      "combo_id": 4,
+      "numbers": [
+        16,
+        21,
+        33,
+        34,
+        47,
+        51
+      ],
+      "entanglement": 0.0004,
+      "clustering": {
+        "range": 35,
+        "min": 16,
+        "max": 51,
+        "clustered": false,
+        "has_38": false
+      }
+    },
+    {
+      "run": 2,
+      "combo_id": 5,
+      "numbers": [
+        20,
+        25,
+        26,
+        36,
+        45,
+        53
+      ],
+      "entanglement": 0.0008,
+      "clustering": {
+        "range": 33,
+        "min": 20,
+        "max": 53,
+        "clustered": false,
+        "has_38": false
+      }
+    },
+    {
+      "run": 3,
+      "combo_id": 1,
+      "numbers": [
+        6,
+        11,
+        21,
+        38,
+        40,
+        49
+      ],
+      "entanglement": 0.0004,
+      "clustering": {
+        "range": 43,
+        "min": 6,
+        "max": 49,
+        "clustered": false,
+        "has_38": true
+      }
+    },
+    {
+      "run": 3,
+      "combo_id": 2,
+      "numbers": [
+        4,
+        5,
+        23,
+        25,
+        38,
+        48
+      ],
+      "entanglement": 0.0002,
+      "clustering": {
+        "range": 44,
+        "min": 4,
+        "max": 48,
+        "clustered": false,
+        "has_38": true
+      }
+    },
+    {
+      "run": 3,
+      "combo_id": 3,
+      "numbers": [
+        7,
+        11,
+        19,
+        32,
+        38,
+        44
+      ],
+      "entanglement": 0.0009,
+      "clustering": {
+        "range": 37,
+        "min": 7,
+        "max": 44,
+        "clustered": false,
+        "has_38": true
+      }
+    },
+    {
+      "run": 3,
+      "combo_id": 4,
+      "numbers": [
+        30,
+        33,
+        35,
+        39,
+        40,
+        51
+      ],
+      "entanglement": 0.0007,
+      "clustering": {
+        "range": 21,
+        "min": 30,
+        "max": 51,
+        "clustered": true,
+        "has_38": false
+      }
+    },
+    {
+      "run": 3,
+      "combo_id": 5,
+      "numbers": [
+        1,
+        15,
+        26,
+        32,
+        39,
+        41
+      ],
+      "entanglement": 0.0005,
+      "clustering": {
+        "range": 40,
+        "min": 1,
+        "max": 41,
+        "clustered": false,
+        "has_38": false
+      }
+    },
+    {
+      "run": 4,
+      "combo_id": 1,
+      "numbers": [
+        7,
+        26,
+        28,
+        38,
+        54,
+        55
+      ],
+      "entanglement": 0.0002,
+      "clustering": {
+        "range": 48,
+        "min": 7,
+        "max": 55,
+        "clustered": false,
+        "has_38": true
+      }
+    },
+    {
+      "run": 4,
+      "combo_id": 2,
+      "numbers": [
+        5,
+        12,
+        23,
+        24,
+        38,
+        43
+      ],
+      "entanglement": 0.0005,
+      "clustering": {
+        "range": 38,
+        "min": 5,
+        "max": 43,
+        "clustered": false,
+        "has_38": true
+      }
+    },
+    {
+      "run": 4,
+      "combo_id": 3,
+      "numbers": [
+        4,
+        6,
+        20,
+        28,
+        31,
+        38
+      ],
+      "entanglement": 0.0005,
+      "clustering": {
+        "range": 34,
+        "min": 4,
+        "max": 38,
+        "clustered": false,
+        "has_38": true
+      }
+    },
+    {
+      "run": 4,
+      "combo_id": 4,
+      "numbers": [
+        2,
+        11,
+        19,
+        34,
+        40,
+        43
+      ],
+      "entanglement": 0.0006,
+      "clustering": {
+        "range": 41,
+        "min": 2,
+        "max": 43,
+        "clustered": false,
+        "has_38": false
+      }
+    },
+    {
+      "run": 4,
+      "combo_id": 5,
+      "numbers": [
+        11,
+        17,
+        20,
+        23,
+        29,
+        46
+      ],
+      "entanglement": 0.0004,
+      "clustering": {
+        "range": 35,
+        "min": 11,
+        "max": 46,
+        "clustered": false,
+        "has_38": false
+      }
+    }
+  ],
+  "top_3": [
+    {
+      "run": 3,
+      "combo_id": 3,
+      "numbers": [
+        7,
+        11,
+        19,
+        32,
+        38,
+        44
+      ],
+      "entanglement": 0.0009,
+      "clustering": {
+        "range": 37,
+        "min": 7,
+        "max": 44,
+        "clustered": false,
+        "has_38": true
+      }
+    },
+    {
+      "run": 2,
+      "combo_id": 1,
+      "numbers": [
+        19,
+        20,
+        31,
+        37,
+        38,
+        39
+      ],
+      "entanglement": 0.0006,
+      "clustering": {
+        "range": 20,
+        "min": 19,
+        "max": 39,
+        "clustered": true,
+        "has_38": true
+      }
+    },
+    {
+      "run": 1,
+      "combo_id": 4,
+      "numbers": [
+        5,
+        13,
+        25,
+        32,
+        34,
+        41
+      ],
+      "entanglement": 0.0009,
+      "clustering": {
+        "range": 36,
+        "min": 5,
+        "max": 41,
+        "clustered": false,
+        "has_38": false
+      }
+    }
+  ],
+  "statistics": {
+    "total_generated": 20,
+    "with_38": 12,
+    "with_38_percent": 60.0,
+    "clustered": 2,
+    "top3_with_38": 2,
+    "avg_range": 38.8
+  }
+}
