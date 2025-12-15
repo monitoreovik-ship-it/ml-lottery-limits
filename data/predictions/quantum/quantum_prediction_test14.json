@@ -1,0 +1,69 @@
+{
+  "test_number": 14,
+  "system": "clustering_forced_v14",
+  "strategy": "minimalismo + clustering obligatorio (<30)",
+  "date": "2025-12-15",
+  "timestamp": "2025-12-15T06:38:53.545110",
+  "hypothesis": "Clustering + alto entrelazamiento = más aciertos",
+  "generation_stats": {
+    "total_generated": 100,
+    "with_clustering": 9,
+    "clustering_rate": "9.0%",
+    "target_range": "<30",
+    "min_entanglement": 0.0025
+  },
+  "main_prediction": {
+    "numbers": [
+      2,
+      5,
+      13,
+      17,
+      26,
+      30
+    ],
+    "entanglement": 0.29268785014853604,
+    "range": 28,
+    "has_clustering": true
+  },
+  "alternatives": [
+    {
+      "numbers": [
+        12,
+        14,
+        17,
+        27,
+        34,
+        39
+      ],
+      "entanglement": 0.2583618810609758,
+      "range": 27,
+      "has_clustering": true
+    },
+    {
+      "numbers": [
+        7,
+        8,
+        13,
+        20,
+        21,
+        30
+      ],
+      "entanglement": 0.23809523809523808,
+      "range": 23,
+      "has_clustering": true
+    }
+  ],
+  "comparison_test_10": {
+    "test_10_entanglement": 0.0033,
+    "test_10_range": 25,
+    "test_10_result": 3,
+    "test_14_entanglement": 0.29268785014853604,
+    "test_14_range": 28,
+    "similar_conditions": false
+  },
+  "expected_outcome": {
+    "optimistic": "3 aciertos (si replica Test #10)",
+    "base": "2 aciertos (clustering funciona)",
+    "conservative": "1 acierto (varianza aleatoria)"
+  }
+}
