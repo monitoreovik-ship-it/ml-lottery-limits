@@ -1,0 +1,188 @@
+{
+  "test_number": 14,
+  "system": "clustering_forced_v14",
+  "evaluation_date": "2025-12-17",
+  "draw_info": {
+    "draw_number": 4149,
+    "date": "2025-12-17",
+    "actual_numbers": [
+      2,
+      4,
+      11,
+      19,
+      43,
+      50
+    ],
+    "additional_number": 47,
+    "range": 48,
+    "has_clustering": false
+  },
+  "prediction": {
+    "main_combination": [
+      2,
+      5,
+      13,
+      17,
+      26,
+      30
+    ],
+    "entanglement": 0.2927,
+    "range": 28,
+    "has_clustering": true,
+    "generation_method": "clustering_forced",
+    "strategy": "Force clustering (range <30) to replicate Test #10"
+  },
+  "results": {
+    "matches": 1,
+    "matched_numbers": [
+      2
+    ],
+    "match_positions": [
+      0
+    ],
+    "missed_numbers": [
+      5,
+      13,
+      17,
+      26,
+      30
+    ],
+    "additional_match": false,
+    "additional_number": 47,
+    "accuracy_percentage": 16.67
+  },
+  "analysis": {
+    "clustering_prediction": true,
+    "clustering_actual": false,
+    "clustering_match": false,
+    "range_prediction": 28,
+    "range_actual": 48,
+    "range_difference": 20,
+    "entanglement_level": "very_high",
+    "notes": [
+      "CRITICAL: Forced clustering but draw was maximally dispersed (range 48)",
+      "Strategy backfired: predicted tight cluster, actual was wide spread",
+      "Only 1 match confirms clustering forcing does NOT improve results",
+      "Test #10 success was likely coincidence, not replicable strategy",
+      "Draw had maximum dispersion while prediction had minimum (opposite)"
+    ]
+  },
+  "system_performance": {
+    "system_name": "minimalist (includes clustering_forced as variant)",
+    "tests_evaluated": 5,
+    "test_results": [
+      {
+        "test": 10,
+        "matches": 3,
+        "clustering_pred": true,
+        "clustering_actual": true
+      },
+      {
+        "test": 11,
+        "matches": 1,
+        "clustering_pred": false,
+        "clustering_actual": false
+      },
+      {
+        "test": 12,
+        "matches": 2,
+        "clustering_pred": false,
+        "clustering_actual": false
+      },
+      {
+        "test": 13,
+        "matches": 1,
+        "clustering_pred": false,
+        "clustering_actual": false
+      },
+      {
+        "test": 14,
+        "matches": 1,
+        "clustering_pred": true,
+        "clustering_actual": false
+      }
+    ],
+    "average": 1.6,
+    "variance": "high",
+    "vs_baseline": "+150%",
+    "baseline_expected": 0.64,
+    "trend": "declining_from_peak"
+  },
+  "comparative_analysis": {
+    "vs_test_10": {
+      "test_10_strategy": "natural_generation",
+      "test_10_prediction_range": 25,
+      "test_10_actual_range": 25,
+      "test_10_match": "clustering_aligned",
+      "test_10_result": 3,
+      "test_14_strategy": "forced_clustering",
+      "test_14_prediction_range": 28,
+      "test_14_actual_range": 48,
+      "test_14_match": "clustering_misaligned",
+      "test_14_result": 1,
+      "conclusion": "Test #10 succeeded because prediction AND draw both had clustering BY CHANCE. Forcing clustering does not guarantee draw will have clustering."
+    },
+    "hypothesis_invalidation": {
+      "hypothesis": "Forcing clustering (range <30) increases matches",
+      "expected_result": "2-3 matches",
+      "actual_result": 1,
+      "conclusion": "HYPOTHESIS REJECTED",
+      "evidence": "Forced clustering but draw was maximally dispersed (opposite)",
+      "new_understanding": "Cannot predict WHEN clustering will occur. Forcing clustering loses in 91% of cases (when draw is dispersed)."
+    }
+  },
+  "clustering_probability": {
+    "generation_stats": {
+      "total_generated": 100,
+      "with_clustering": 9,
+      "clustering_rate": "9.0%"
+    },
+    "natural_occurrence": "~9% of draws have clustering (range <30)",
+    "implication": "Forcing clustering bets against 91% probability of dispersion",
+    "conclusion": "Let system generate naturally - forcing is counterproductive"
+  },
+  "lessons_learned": {
+    "invalidated": [
+      "Forcing clustering increases matches (REJECTED)",
+      "Test #10 strategy is replicable (REJECTED)",
+      "Clustering is predictable (REJECTED)"
+    ],
+    "confirmed": [
+      "Test #10 success was coincidence (both pred and draw had clustering)",
+      "Cannot predict when clustering will occur in draws",
+      "Forcing clustering backfires when draw is dispersed (91% of time)",
+      "Minimalismo puro promedio mantiene 1.60 (still best strategy)"
+    ],
+    "new_insights": [
+      "Clustering natural occurrence: ~9% (rare)",
+      "Forcing clustering creates mismatch 91% of time",
+      "Better to let system generate naturally without constraints",
+      "Test #10 was lucky alignment, not superior strategy"
+    ],
+    "strategic_decision": [
+      "ABANDON clustering forcing strategy",
+      "RETURN to pure minimalism for Test #15",
+      "ACCEPT that high variance is inherent to lottery",
+      "TRUST natural generation over forced constraints"
+    ]
+  },
+  "statistical_context": {
+    "expected_matches_random": 0.64,
+    "actual_matches": 1,
+    "performance_vs_random": "+56%",
+    "cumulative_minimalist_avg": 1.6,
+    "cumulative_vs_baseline": "+150%",
+    "sample_size": 5,
+    "confidence_level": "moderate (n=5)",
+    "variance_pattern": "3→1→2→1→1 (declining trend from peak)"
+  },
+  "metadata": {
+    "evaluator": "ml-lottery-limits experiment",
+    "evaluation_version": "1.0",
+    "commit_hash": "3e83cae",
+    "prediction_file": "quantum_prediction_test14.json",
+    "github_repo": "monitoreovik-ship-it/ml-lottery-limits",
+    "verifiable": true,
+    "timestamp": "2025-12-17T00:00:00Z"
+  }
+}
